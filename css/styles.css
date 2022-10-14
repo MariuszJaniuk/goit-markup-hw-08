@@ -12,10 +12,10 @@ body {
   background-color: var(--background-color);
 }
 
-.nav-list {
+/* .nav-list {
   display: flex;
   justify-content: space-around;
-}
+} */
 /* .header {
   border-bottom: 1px solid #ececec;
 } */
