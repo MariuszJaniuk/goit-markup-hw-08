@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <!-- <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" /> -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,40 +20,38 @@
 </head>
 
 <body>
-    <!-- <div>
-       
-    </div> -->
-    <!-- w header wstaw class="header" ( zad 3) -->
-    <header>
-        <div class="link">
-            <a class="logo" href="./index.html">
-                <span class="web">Web</span><span
-                    class="studio">Studio</span></a>
-        </div>
-        <div class="link">
-            <nav>
-                <ul class="dots">
-                    <li>
-                        <a class="menu-nav" href="./index.html">Agencja</a>
-                    </li>
-                    <li>
-                        <a class="menu-nav"
-                            href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="menu-nav" href="/kontakt">Kontakt</a>
-                    </li>
-                </ul>
-            </nav>
-            <div>
-                <ul class="dots">
+    <header class="header">
+        <div class="container">
+            <div class="link nav-list">
+                <div class="nav-list">
+                    <a class="logo" role="button" href=./index.html> <span
+                            class="web">Web</span><span
+                            class="studio">Studio</span></a>
+                    <nav>
+                        <ul class="dots menu-nav nav-list">
+                            <li>
+                                <a class="menu-nav"
+                                    href="./index.html">Agencja</a>
+                            </li>
+                            <li>
+                                <a class="menu-nav"
+                                    href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li>
+                                <a class="menu-nav" href="/kontakt">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <ul class="dots nav-list">
                     <li>
                         <a class="link contact-menu"
                             href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li>
                         <a class="link contact-menu" href="tel:+48111111111">+48
-                            111 111
+                            111
+                            111
                             111</a>
                     </li>
                 </ul>
@@ -77,7 +77,7 @@
         </section>
 
         <section class="projects">
-            <ul class="dots">
+            <ul class="dots projects">
                 <li>
                     <figure><img src="./images/h.jpg" alt="Computer" width="370"
                             height="294" />
@@ -174,30 +174,34 @@
     </main>
 
     <footer class="footer">
-        <div class="link">
-            <a class="logo" href="./index.html">
-                <span class="web">Web</span><span
-                    class="studio-footer">Studio</span></a>
-        </div>
-        <div class="link">
-            <ul class="dots">
-                <li>
-                    <address class="address">m. Warszawa, Aleje
-                        Jerozolimskie 21
-                    </address>
-                </li>
-                <li>
-                    <a class="contact-menu"
-                        href="mailto:info@devstudio.com">info@devstudio.com
-                    </a>
-                </li>
-                <li>
-                    <a class="contact-menu" href="tel:+48111111111">+48 111 111
-                        111</a>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="logo-footer">
+                <div class="link">
+                    <a class="logo" href="./index.html"> <span
+                            class="web">Web</span><span
+                            class="studio-footer">Studio</span></a>
+                </div>
+            </div>
+            <div class="link">
+                <ul class="dots">
+                    <li>
+                        <address class="address">m. Warszawa, Aleje
+                            Jerozolimskie 21
+                        </address>
+                    </li>
+                    <li class="mail-footer">
+                        <a class="contact-menu"
+                            href="mailto:info@devstudio.com">info@devstudio.com
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact-menu" href="tel:+48111111111">+48 111
+                            111
+                            111</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
-</body>
 
 </html
