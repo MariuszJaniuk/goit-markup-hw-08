@@ -23,7 +23,16 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.filters {
+  display: flex;
+  justify-content: space-around;
+}
+.filter {
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
+  padding-bottom: 50px;
+}
 .nav-list {
   display: flex;
   justify-content: space-between;
@@ -56,7 +65,7 @@ body {
 .studio {
   font-family: 'Raleway';
   color: var(--logo-color);
-  margin-right: 92px;
+  margin-right: 46px;
 }
 .dots {
   list-style-type: none;
@@ -113,7 +122,9 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #fff;
-  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
 }
 .main-button {
   background: #2196f3;
@@ -132,7 +143,9 @@ body {
 .cursor {
   cursor: pointer;
 }
-
+.motto {
+  padding-top: 94px;
+}
 .description-text {
   font-weight: 700;
   font-size: 14px;
@@ -156,12 +169,13 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 10px;
+  padding-top: 10px;
   color: #757575;
   text-align: justify;
 }
 .our-team-section {
   background-color: #f5f4fa;
+  margin: 0;
 }
 
 .second-heading {
@@ -170,7 +184,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .our-team {
   font-size: 16px;
@@ -178,11 +192,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.figure {
+.figure-team {
   width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
   background: #ffffff;
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -198,6 +209,7 @@ body {
 }
 .function {
   color: #757575;
+  padding-bottom: 30px;
 }
 
 .button {
@@ -209,6 +221,7 @@ body {
   background: var(--button-color);
   border-radius: 4px;
   border: var(--button-color);
+  padding: 6px 22px 6px 22px;
 }
 
 .button:active,
@@ -222,34 +235,54 @@ body {
 
 .projects {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  gap: 30px;
 }
-
-/* Klasa do zdjęć portfolio do Li lub Figure */
 .project {
+  display: block;
   background: var(--background-color);
   border: px solid #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
+  width: 370px;
+  height: 404px;
+}
+.project-description {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.block {
+  display: block;
 }
 .project-name {
+  display: block;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 4px;
+  padding-left: 24px;
 }
 
 .project-type {
+  display: block;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-top: 4px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 .footer {
   background-color: #2f303a;
-  height: 252px;
+  /* height: 252px; */
   left: 0px;
   top: 2097px;
-
   background: #2f303a;
 }
 .studio-footer {
@@ -269,4 +302,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.last-element {
+  padding-bottom: 60px;
 }
