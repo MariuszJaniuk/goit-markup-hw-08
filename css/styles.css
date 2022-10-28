@@ -241,7 +241,7 @@ body {
 .project {
   display: block;
   background: var(--background-color);
-  border: px solid #eeeeee;
+  border: 1px solid #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
   width: 370px;
   height: 404px;
