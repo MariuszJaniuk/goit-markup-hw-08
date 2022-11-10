@@ -408,9 +408,9 @@ img {
   /* position: relative; */
 }
 .box-overlay {
-  flex-basis: calc((100% - 60px) / 3);
-  width: 370px;
-  height: 404px;
+  /* flex-basis: calc((100% - 60px) / 3); */
+  width: 368px;
+  height: 402px;
   position: relative;
   overflow: hidden;
 }
@@ -419,7 +419,7 @@ img {
   height: 294px;
   background: rgba(33, 150, 243, 0.9);
   position: absolute;
-  transform: translateY(100%);
+  transform: translateY(140%);
   will-change: transform;
   transition: transform 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -446,6 +446,8 @@ img {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  z-index: 1;
+  position: relative;
 }
 .block {
   display: block;
