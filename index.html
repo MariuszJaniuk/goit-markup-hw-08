@@ -68,8 +68,9 @@
           DLA WASZEGO BIZNESU
         </h1>
         <div class="div-button">
-          <button class="main-button cursor" type="button"><span
-              class="order-the-service">Zamów usługe</span></button>
+          <button class="main-button cursor modal-btn" type="button"
+            data-modal-open><span class="order-the-service">Zamów
+              usługe</span></button>
         </div>
       </div>
     </section>
@@ -444,6 +445,13 @@
       </div>
     </div>
   </footer>
+
+  <div clas="bacdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="close-btn" data-modal-close>X</button>
+    </div>
+  </div>
+  <script src="js/modal.js"></script>
 </body>
 
 </html>
