@@ -454,15 +454,50 @@
       <div class="modal-content">
         <p class="title-form">Zostaw swoje dane w formularzu poniżej</p>
         <form class="my-form">
+
           <fieldset class="fildset">
-            <label class="label" for="Imie">Imie</label>
+            <label class="label" for="imie">Imie</label>
             <svg class="icon-form">
               <use href="./images/icons.svg#icon-person">
-
               </use>
             </svg>
-            <input class="input" type="text" placeholder="Give your name"
-              id="imie">
+            <input class="input" type="text" id="imie" name="imie">
+          </fieldset>
+
+          <fieldset class="fildset">
+            <label class="label" for="telefon">Telefon</label>
+            <svg class="icon-form">
+              <use href="./images/icons.svg#icon-phone">
+              </use>
+            </svg>
+            <input class="input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+              id="telefon" name="telefon">
+          </fieldset>
+
+          <fieldset class="fildset">
+            <label class="label" for="email">Email</label>
+            <svg class="icon-form">
+              <use href="./images/icons.svg#icon-email">
+              </use>
+            </svg>
+            <input class="input" type="email" id="email" name="email">
+          </fieldset>
+
+          <fieldset class="fildset label-textarea">
+            <label class="label " for="komentarz">Komentarz</label>
+
+            <input type="textarea" class="placeholder textarea input"
+              placeholder="wprowadź tekst" resize="none" id="komentarz"
+              name="komentarz"></input>
+          </fieldset>
+
+          <fieldset class="fildset">
+            <label class="label " for="komentarz"></label>
+
+            <input type="checkbox" class=""
+              placeholder="wprowadź tekst" resize="none" id="komentarz"
+              name="komentarz">
+            </input>
           </fieldset>
         </form>
 
