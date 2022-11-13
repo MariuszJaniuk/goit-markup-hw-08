@@ -628,6 +628,8 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-bottom: 28px;
+  transition: border-color 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .my-form {
@@ -702,14 +704,16 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-bottom: 20px;
+  transition: border-color 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox {
+/* .checkbox {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-}
+} */
 
 .submint {
   display: flex;
@@ -745,9 +749,83 @@ img {
 }
 
 .legal-checbox {
-  margin-left: 54px;
+  margin-left: 38px;
 }
 
-.email-form {
+.checkbox {
+  visibility: hidden;
+}
+
+.legal-checbox {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 146%;
+  letter-spacing: 0.03em;
+  position: relative;
+}
+.legal-checbox a {
   color: #2196f3;
+}
+.legal-checbox svg {
+  fill: #ffffff;
+  background: #ffffff;
+  border: 2px solid rgba(33, 33, 33, 1);
+  border-radius: 2px;
+  position: relative;
+  top: 2px;
+  transition: border 0.05s, fill 0.05s, background-color 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+.checkbox:checked + span svg {
+  background-color: #2196f3;
+  border: 0;
+}
+
+/* NEWSLETER */
+
+.newsletter__input {
+  padding: 15px;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 358px;
+}
+.newsletter__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  height: 50px;
+}
+.newsletter__button {
+  margin: 0;
+  margin-left: 12px;
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  padding: 0;
+  padding-left: 42px;
+  padding-right: 28px;
+}
+.newsletter__icon {
+  fill: #ffffff;
+  margin-left: 24px;
+}
+.join-to-us h5,
+.newsletter__heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.newsletter {
+  display: inline-block;
+  margin-top: 12px;
 }
