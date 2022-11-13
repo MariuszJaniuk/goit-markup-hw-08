@@ -550,12 +550,12 @@ img {
   margin-right: 70px;
 }
 
-/* .is-hidden {
+.is-hidden {
   opacity: 0.7;
   visibility: hidden;
   pointer-events: none;
   transform: scale(0);
-} */
+}
 /* translateX(-100%) */
 .backdrop {
   position: fixed;
@@ -662,7 +662,9 @@ img {
 .fildset:has(input:focus) .icon-form {
   fill: var(--hover-color);
 }
-
+.fildset-textarea:has(textarea:focus) {
+  border-color: var(--hover-color);
+}
 .placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -684,7 +686,7 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  outline: 0;
+  /* outline: 0; */
   color: rgba(117, 117, 117, 0.5);
   margin: 12px 16px 12px 16px;
   text-decoration: none;
@@ -705,10 +707,7 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* identical to box height, or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 
@@ -724,6 +723,7 @@ img {
   transition-duration: 3s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  border: none;
 }
 
 .submint:hover {
@@ -746,4 +746,8 @@ img {
 
 .legal-checbox {
   margin-left: 54px;
+}
+
+.email-form {
+  color: #2196f3;
 }
