@@ -641,7 +641,7 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: var(--label-color);
+  /* color: var(--label-color); */
 }
 .my-form .label {
   position: absolute;
@@ -784,7 +784,7 @@ img {
 
 /* NEWSLETER */
 
-.newsletter__input {
+.newsletter-email {
   padding: 15px;
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -792,40 +792,74 @@ img {
   border-radius: 4px;
   width: 358px;
 }
-.newsletter__input::placeholder {
+.newsletter-email::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   height: 50px;
 }
-.newsletter__button {
-  margin: 0;
+.newsletter-button {
+  /* margin: 0;
   margin-left: 12px;
   display: inline-flex;
   align-items: center;
   height: 50px;
   padding: 0;
   padding-left: 42px;
-  padding-right: 28px;
+  padding-right: 28px; */
+
+  width: 200px;
+  height: 50px;
+  /* display: inline-flex; */
+  align-items: center;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .newsletter__icon {
-  fill: #ffffff;
+  /* fill: #ffffff; */
   margin-left: 24px;
+  /* margin-top: 13px;
+  margin-bottom: 13px;
+  margin-right: 13px; */
 }
-.join-to-us h5,
-.newsletter__heading {
+
+.newsletter-heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 20px;
+
+  color: #ffffff;
 }
 .newsletter {
-  display: inline-block;
-  margin-top: 12px;
+  display: flex;
+  margin: 114px 0px 94px 75px;
+  width: 570px;
+  height: 86px;
+}
+
+.newsletter .label {
+  position: absolute;
+  top: -40px;
+  background-color: transparent;
+  /* color: var(--label-color); */
+}
+
+.newsletter-fieldset {
+  margin-right: 12px;
+  height: 50px;
+}
+
+.newsletter-fieldset:has(input:hover) {
+  border-color: var(--hover-color);
+}
+.newsletter-fieldset:has(input:focus) {
+  border-color: var(--hover-color);
 }
