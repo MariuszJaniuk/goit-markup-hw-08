@@ -19,12 +19,6 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
 }
-.container {
-  padding: 0px 15px;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
 .filters {
   display: flex;
   justify-content: space-around;
@@ -41,17 +35,9 @@ body {
 .filter:hover .filter:active {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  /* transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--hover-color); */
 }
-.nav-list {
-  display: flex;
-  justify-content: space-between;
-  gap: 46px;
-  align-items: center;
-  position: relative;
-}
+
+/* <-- cz 1 Header--> */
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -59,11 +45,29 @@ body {
   padding-bottom: 25px;
   margin-top: 0;
 }
-.link a {
+.container {
+  padding: 0px 15px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+  align-items: center;
+  position: relative;
+  list-style-type: none;
+}
+
+.logo__studio--link {
+  text-decoration: none;
+}
+.link {
   text-decoration: none;
 }
 
-.logo {
+.logo__studio {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -72,7 +76,7 @@ body {
   color: var(--hover-color);
 }
 
-.web {
+.logo__web {
   color: var(--hover-color);
 }
 .studio {
@@ -94,9 +98,6 @@ body {
 
 .icon-svg:hover {
   fill: var(--hover-color);
-}
-.dots {
-  list-style-type: none;
 }
 .section {
   padding-top: 94px;
@@ -137,8 +138,6 @@ body {
 .menu-nav:hover,
 .menu-nav:focus {
   color: var(--hover-color);
-  /* transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .contact-menu {
   display: flex;
@@ -155,12 +154,6 @@ body {
   color: var(--hover-color);
 }
 
-.header-text {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0.1)),
-    url(../images/img-effective\ solutions.jpg);
-  max-width: 1600px;
-  margin: auto;
-}
 .main-header {
   font-weight: 900;
   font-size: 44px;
@@ -202,7 +195,19 @@ body {
   cursor: pointer;
 }
 
-.our-strengths {
+/* /<<<<<<<<<<< Sekcion solution>>>>>>>>> */
+
+.section-solution {
+  padding-top: 94px;
+}
+
+.section-solution__photo-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style-type: none;
+}
+.section-solution__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -214,25 +219,29 @@ body {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.motto {
-  padding-top: 94px;
-}
-.description-text {
+
+.section-solution__description-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.photo-layout {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
 
-.item {
+.section-solution__item {
   flex-basis: calc((100% - 90px) / 4);
 }
+.section-solution__motto {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  padding-top: 10px;
+  color: #757575;
+  text-align: justify;
+}
+
+/* <<<<<<<<<<<sekcja czym się zajmujemy>>>>>>>>>>>> */
+
 .what-we-do {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
@@ -241,7 +250,6 @@ body {
 img {
   display: block;
 }
-
 .apps {
   position: absolute;
   background: rgba(47, 48, 58, 0.8);
@@ -260,14 +268,7 @@ img {
   padding-top: 27px;
   color: #ffffff;
 }
-.text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  padding-top: 10px;
-  color: #757575;
-  text-align: justify;
-}
+
 .our-team-section {
   background-color: #f5f4fa;
   margin: 0;
@@ -372,6 +373,8 @@ img {
   border-color: #2196f3;
   cursor: pointer;
 }
+
+/* <<<<<<<<<koniec sekcji czym sie zajmujemy>>>>>>> */
 
 .button {
   font-weight: 500;
@@ -549,6 +552,14 @@ img {
 .kontakt {
   margin-right: 70px;
 }
+/* Cz 2 - bacgroudn image i bacdroop  */
+
+.header-text {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0.1)),
+    url(../images/img-effective\ solutions.jpg);
+  max-width: 1600px;
+  margin: auto;
+}
 
 .is-hidden {
   opacity: 0.7;
@@ -556,7 +567,6 @@ img {
   pointer-events: none;
   transform: scale(0);
 }
-/* translateX(-100%) */
 .backdrop {
   position: fixed;
   display: flex;
@@ -571,10 +581,6 @@ img {
   position: relative;
   width: 528px;
   height: 581px;
-  /* left: 536px;
-  top: 221px; */
-  /* justify-content: center;
-  align-items: center; */
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -588,8 +594,6 @@ img {
   position: absolute;
   width: 30px;
   height: 30px;
-  /* left: 1026px;
-  top: 229px; */
   cursor: pointer;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -641,7 +645,6 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  /* color: var(--label-color); */
 }
 .my-form .label {
   position: absolute;
@@ -688,7 +691,6 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  /* outline: 0; */
   color: rgba(117, 117, 117, 0.5);
   margin: 12px 16px 12px 16px;
   text-decoration: none;
@@ -728,8 +730,6 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   border: none;
-  /* pointer-events: none;
-  opacity: 0.3; */
 }
 .my-form:has(.legal-checkbox input:checked).submit {
   opacity: 1;

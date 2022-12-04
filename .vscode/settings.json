@@ -1,3 +1,12 @@
 {
-  "prettier.vueIndentScriptAndStyle": false
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/CSS",
+      "savePathReplacementPairs": null
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["/**/node_modules/**", "/.vscode/**"],
+  "liveSassCompile.settings.generateMap": true
 }
