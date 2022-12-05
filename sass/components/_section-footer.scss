@@ -52,6 +52,13 @@
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  text-decoration: none;
 }
+&:hover {
+ color: var(--hover-color);
+}
+&:focus {
+ color: var(--hover-color);
+}
+
 .footer-contact__address {
  font-size: 14px;
  line-height: 1.71;
@@ -99,6 +106,10 @@
  fill: #afb1b8;
  background: rgba(255, 255, 255, 0.1);
 }
+&:hover {
+ background: radial-gradient(circle, #2196f3 70%, #2f303a 70%);
+}
+
 .footer-social__icon {
  display: flex;
  font-weight: 500;
@@ -109,14 +120,6 @@
  transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  text-decoration: none;
-}
-
-.footer-contact__menu:hover,
-.footer-contact__menu:focus {
- color: var(--hover-color);
-}
-.footer__social-link:hover {
- background: radial-gradient(circle, #2196f3 70%, #2f303a 70%);
 }
 
 .section-footer__form {
@@ -164,7 +167,7 @@
  width: 358px;
  color: #ffffff;
 }
-.newsletter-email::placeholder {
+&::placeholder {
  font-weight: 400;
  font-size: 16px;
  line-height: 20px;
@@ -172,6 +175,7 @@
  color: rgba(255, 255, 255, 0.6);
  height: 50px;
 }
+
 .section-footer__newsletter-button {
  height: 50px;
  width: 200px;

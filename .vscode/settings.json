@@ -3,8 +3,7 @@
   {
    "format": "compressed",
    "extensionName": ".min.css",
-   "savePath": "/css",
-   "savePathReplacementPairs": null
+   "savePath": "/css"
   }
  ],
  "liveSassCompile.settings.excludeList": ["/**/node_modules/**", "/.vscode/**"],

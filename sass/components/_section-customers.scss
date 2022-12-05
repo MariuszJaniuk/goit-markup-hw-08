@@ -30,13 +30,14 @@
  border-radius: 4px;
  fill: #afb1b8;
 }
-.section-customer__icon:hover {
+
+&:focus {
  fill: #2196f3;
  transition: all 0.28s;
  border-color: #2196f3;
  cursor: pointer;
 }
-.section-customer__icons:focus {
+&:focus {
  fill: #2196f3;
  transition: all 0.28s;
  border-color: #2196f3;
