@@ -1,3 +1,17 @@
+@import './utils/is-hidden';
 @import './utils/vars';
 @import './utils/reset';
+
+@import './components/container';
+@import './components/section-header';
+@import './components/section_header-menu';
+@import './components/section';
+@import './components/section-background';
 @import './components/section-solution';
+@import './components/section-job';
+@import './components/section-team';
+@import './components/section-customers';
+@import './components/section-filters';
+@import './components/section-projects';
+@import './components/section-footer';
+@import './components/backdrop';

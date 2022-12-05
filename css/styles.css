@@ -1,10 +1,10 @@
-*,
+/* *,
 *::after,
 *::before {
  margin: 0;
  padding: 0;
-}
-:root {
+} */
+/* :root {
  --background-color: #ffffff;
  --text-color: #212121;
  --hover-color: #2196f3;
@@ -12,20 +12,20 @@
  --button-color: #e5e5e5;
  --fildset-color: rgba(33, 33, 33, 0.2);
  --label-color: #757575;
-}
+} */
 
-body {
+/* body {
  font-family: 'Roboto', sans-serif;
  color: var(--text-color);
  background-color: var(--background-color);
-}
+} */
 
 /* <<<<<<<<<<<_____________filters
 >>>>>>>>>>>>> */
 
 /* <-- cz 1 Header--> */
 
-.header {
+/* .header {
  border-bottom: 1px solid #ececec;
  padding-top: 24px;
  padding-bottom: 25px;
@@ -36,9 +36,9 @@ body {
  width: 100%;
  max-width: 1200px;
  margin: 0 auto;
-}
+} */
 
-.header-container__menu {
+/* .header-container__menu {
  display: flex;
  justify-content: space-between;
  gap: 46px;
@@ -63,11 +63,11 @@ body {
 .logo__studio2 {
  color: var(--logo-color);
  margin-right: 46px;
-}
+} */
 
 /* <<<<<<<<<<<,header cz 2 menu nav->>>>>>>>>>>>>> */
 
-.header-container__nav-list {
+/* .header-container__nav-list {
  display: flex;
  justify-content: space-between;
  gap: 46px;
@@ -148,7 +148,7 @@ body {
 .header-container__contact:hover,
 .header-container__contact:focus {
  color: var(--hover-color);
-}
+} */
 
 /* 
 <section background>>>>>>>>>>>>>>>>>> 
@@ -156,11 +156,11 @@ body {
 
 
 */
-.section {
+/* .section {
  padding-top: 94px;
  padding-bottom: 94px;
-}
-.section-background {
+} */
+/* .section-background {
  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0.1)),
   url(../images/img-effective\ solutions.jpg);
  max-width: 1600px;
@@ -205,14 +205,14 @@ body {
  margin-top: 30px;
  padding-bottom: 210px;
  margin: 0;
-}
+} */
 /* .cursor {
  cursor: pointer;
 } */
 
 /* /<<<<<<<<<<< Sekcion solution>>>>>>>>> */
 
-.section-solution {
+/* .section-solution {
  padding-top: 94px;
  padding-bottom: 94px;
 }
@@ -254,11 +254,11 @@ body {
  padding-top: 10px;
  color: #757575;
  text-align: justify;
-}
+} */
 
 /* <<<<<<<<<<<sekcja czym się zajmujemy>>>>>>>>>>>> */
 
-.section-job {
+/* .section-job {
  padding-top: 94px;
 }
 .section-job__photo-layout {
@@ -297,11 +297,11 @@ body {
  text-transform: uppercase;
  padding-top: 27px;
  color: #ffffff;
-}
+} */
 
 /* <<<<<<<<<<<,section team >>>>>>>>>>>> */
 
-.section-team {
+/* .section-team {
  padding-top: 94px;
  padding-bottom: 94px;
  background-color: #f5f4fa;
@@ -359,7 +359,7 @@ body {
  width: 206px;
  height: 56px;
  margin-left: 32px;
-}
+} */
 /* .contact-menu {
  display: flex;
  font-weight: 500;
@@ -387,7 +387,7 @@ body {
  height: 56px;
  margin-left: 32px;
 } */
-.section-team__social-icon {
+/* .section-team__social-icon {
  display: flex;
  align-items: center;
  justify-content: center;
@@ -410,11 +410,11 @@ body {
  height: 44px;
  border-radius: 50%;
  fill: #ffffff;
-}
+} */
 
 /* <<<<<<<<<<<<<<<<<our customer secition>>>>>>>>>>>> */
 
-.section-customer {
+/* .section-customer {
  padding-top: 94px;
  padding-bottom: 94px;
 }
@@ -457,11 +457,11 @@ body {
  transition: all 0.28s;
  border-color: #2196f3;
  cursor: pointer;
-}
+} */
 
 /* <<<<<<<<<sekcja filtry >>>>>> */
 
-.section-filters {
+/* .section-filters {
  display: flex;
  justify-content: space-around;
 }
@@ -502,11 +502,11 @@ body {
   0px 2px 2px rgba(0, 0, 0, 0.12);
  border-radius: 4px;
  color: #fff;
-}
+} */
 
 /* <<<<<<<<<<<<<<<<sekcja projekty >>>>>>>>>>>>>>>>>>> */
 
-.section-projects {
+/* .section-projects {
  display: flex;
  flex-wrap: wrap;
  gap: 30px;
@@ -518,7 +518,6 @@ body {
  background: var(--background-color);
  border: 1px solid #eeeeee;
  flex-basis: calc((100% - 60px) / 3);
- /* position: relative; */
 }
 .section-project__box {
  width: 368px;
@@ -561,7 +560,6 @@ body {
  letter-spacing: 0.06em;
  padding-top: 20px;
  padding-right: 24px;
- /* padding-bottom: 4px; */
  padding-left: 24px;
 }
 
@@ -582,16 +580,14 @@ body {
 
 .section-project:hover {
  background: #ffffff;
- /* border: 1px solid #eeeeee; */
  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 /* 
 <<<<<<<<<<<<footer>>>>>>>>>>>>>>>>> */
 
-.footer {
+/* .footer {
  background-color: #2f303a;
- /* height: 252px; */
  left: 0px;
  top: 2097px;
  background: #2f303a;
@@ -708,17 +704,17 @@ body {
 }
 .footer__social-link:hover {
  background: radial-gradient(circle, #2196f3 70%, #2f303a 70%);
-}
+} */
 
 /* Cz 2 - bacgroudn image i bacdroop  */
 
-.is-hidden {
+/* .is-hidden {
  opacity: 0.7;
  visibility: hidden;
  pointer-events: none;
  transform: scale(0);
-}
-
+} */
+/* 
 .backdrop {
  position: fixed;
  display: flex;
@@ -728,9 +724,9 @@ body {
  top: 0px;
  background: rgba(0, 0, 0, 0.2);
  transition: transform 0.25s;
-}
+} */
 
-.backdrop__modal {
+/* .backdrop__modal {
  position: relative;
  width: 528px;
  height: 581px;
@@ -933,11 +929,11 @@ body {
 .checkbox:checked + span svg {
  background-color: #2196f3;
  border: 0;
-}
+} */
 
 /* NEWSLETER */
 
-.section-footer__form {
+/* .section-footer__form {
  display: flex;
  margin: 114px 0px 94px 75px;
  width: 570px;
@@ -970,7 +966,6 @@ body {
  position: absolute;
  top: -40px;
  background-color: transparent;
- /* color: var(--label-color); */
 }
 
 .section-footer__newsletter-email {
@@ -1019,4 +1014,4 @@ body {
 }
 .newsletter-fieldset:has(input:focus) {
  border-color: var(--hover-color);
-}
+} */
