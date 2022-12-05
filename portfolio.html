@@ -22,40 +22,44 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="link nav-list">
-                <div class="nav-list">
-                    <a class="logo" role="button" href=./index.html> <span
-                            class="web">Web</span><span
-                            class="studio">Studio</span></a>
+            <div class="header-container__menu">
+                <div class="header-container__nav-list">
+                    <a class="logo__studio " role="button" href=./index.html>
+                        <span class="logo__studio1     ">Web</span><span
+                            class="logo__studio2   ">Studio</span></a>
                     <nav>
-                        <ul class="dots menu-nav nav-list">
+                        <ul
+                            class=" header-container__menu-nav header-container__nav-list">
                             <li>
-                                <a class="menu-nav"
+                                <a class="header-container__menu-nav "
                                     href="./index.html">Agencja</a>
                             </li>
                             <li>
-                                <a class="menu-nav kreska-portfolio"
+                                <a class="header-container__menu-nav header-container--underscore-portfolio"
                                     href="./portfolio.html">Portfolio</a>
                             </li>
                             <li>
-                                <a class="menu-nav" href="/kontakt">Kontakt</a>
+                                <a class="header-container__menu-nav"
+                                    href="/kontakt">Kontakt</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <ul class="dots nav-list">
+                <ul class="header-container__contact-menu">
                     <li>
-                        <a class="link contact-menu"
+                        <a class="header-container__contact"
                             href="mailto:info@devstudio.com"><svg
-                                class="icon icon-svg envelope" width="16"
-                                height="12">
+                                class="header-container__contact-icon"
+                                width="16" height="12">
                                 <use href="./images/icons.svg#icon-envelope">
                                 </use>
                             </svg>info@devstudio.com</a>
                     </li>
                     <li>
-                        <a class="link contact-menu" href="tel:+48111111111">
-                            <svg class="icon icon-svg " width="10" height="16">
+                        <a class="header-container__contact"
+                            href="tel:+48111111111">
+                            <svg class="header-container__contact-icon"
+                                width="10" height="16">
                                 <use href="./images/icons.svg#icon-smartphone">
                                 </use>
                             </svg>+48 111 111
@@ -70,28 +74,28 @@
     <main>
         <section class="section">
             <div class="container">
-                <div class="filters">
-                    <ul class="dots filter">
-                        <li><button class="cursor button"
+                <div class="section-filters">
+                    <ul class="section-filter">
+                        <li><button class="section-filter__button"
                                 type="button"><span>Wszystkie</span></button>
                         </li>
-                        <li><button class="cursor button"
+                        <li><button class="section-filter__button"
                                 type="button">Strony</button>
                         </li>
-                        <li><button class="cursor button"
+                        <li><button class=" section-filter__button"
                                 type="button">Aplikacje</button></li>
-                        <li><button class="cursor button"
+                        <li><button class="section-filter__button"
                                 type="button">Dizajn</button>
                         </li>
-                        <li><button class="cursor button"
+                        <li><button class=" section-filter__button"
                                 type="button">Marketing</button></li>
                     </ul>
                 </div>
 
-                <ul class="dots projects">
-                    <li class="project  box ">
-                        <div class="box-overlay">
-                            <div class="overlay">
+                <ul class="section-projects">
+                    <li class="section-project ">
+                        <div class="section-project__box">
+                            <div class="section-project__overlay">
                                 <p>
                                     Technocrack jest popularną platformą
                                     wykorzystywaną do rozpowszechniania
@@ -100,22 +104,23 @@
                                     niezabezpieczone serwery konkurencji
                                 </p>
                             </div>
-                            <figure class="project">
-                                <img class="block" src="./images/h.jpg"
-                                    alt="Computer" width="370" height="294" />
-                                <figcaption class="project-description">
+                            <figure>
+                                <img src="./images/h.jpg" alt="Computer"
+                                    width="370" height="294" />
+                                <figcaption
+                                    class="section-project__description">
                                     <span
-                                        class="project-name">Technocrack</span><span
-                                        class="project-type">Strona
+                                        class="section-project__name">Technocrack</span><span
+                                        class="section-project__type">Strona
                                         internetowa</span>
                                 </figcaption>
                             </figure>
                         </div>
                     </li>
 
-                    <li class="project">
-                        <div class="box-overlay">
-                            <div class="overlay">
+                    <li class="section-project ">
+                        <div class="section-project__box">
+                            <div class="section-project__overlay">
                                 <p>
                                     Technocrack jest popularną platformą
                                     wykorzystywaną do rozpowszechniania
@@ -124,22 +129,24 @@
                                     niezabezpieczone serwery konkurencji
                                 </p>
                             </div>
-                            <figure class="project">
-                                <img class="block" src="./images/i.jpg"
+                            <figure>
+                                <img src="./images/i.jpg"
                                     alt="basketball players" width="370"
                                     height="294">
-                                <figcaption class="project-description">
-                                    <span class="project-name">Grafika New
+                                <figcaption
+                                    class="section-project__description">
+                                    <span class="section-project__name">Grafika
+                                        New
                                         Orlean vs
                                         Golden
                                         Star</span><span
-                                        class="project-type">Dizajn</span>
+                                        class="section-project__type">Dizajn</span>
                                 </figcaption>
                             </figure>
                     </li>
-                    <li class="project">
-                        <div class="box-overlay">
-                            <div class="overlay">
+                    <li class="section-project ">
+                        <div class="section-project__box">
+                            <div class="section-project__overlay">
                                 <p>
                                     Technocrack jest popularną platformą
                                     wykorzystywaną do rozpowszechniania
@@ -148,20 +155,21 @@
                                     niezabezpieczone serwery konkurencji
                                 </p>
                             </div>
-                            <figure class="project">
-                                <img class="block" src="./images/j.jpg"
-                                    alt="restaurant logo" width="370"
-                                    height="294">
-                                <figcaption class="project-description">
-                                    <span class="project-name">Restauracja
+                            <figure>
+                                <img src="./images/j.jpg" alt="restaurant logo"
+                                    width="370" height="294">
+                                <figcaption
+                                    class="section-project__description">
+                                    <span
+                                        class="section-project__name">Restauracja
                                         Seafood</span><span
-                                        class="project-type">Aplikacja</span>
+                                        class="section-project__type">Aplikacja</span>
                                 </figcaption>
                             </figure>
                     </li>
-                    <li class="project">
-                        <div class="box-overlay">
-                            <div class="overlay">
+                    <li class="section-project ">
+                        <div class="section-project__box">
+                            <div class="section-project__overlay">
                                 <p>
                                     Technocrack jest popularną platformą
                                     wykorzystywaną do rozpowszechniania
@@ -170,19 +178,20 @@
                                     niezabezpieczone serwery konkurencji
                                 </p>
                             </div>
-                            <figure class="project">
-                                <img class="block" src="./images/k.jpg"
-                                    alt="headphones" width="370" height="294">
-                                <figcaption class="project-description">
-                                    <span class="project-name">Projekt
+                            <figure>
+                                <img src="./images/k.jpg" alt="headphones"
+                                    width="370" height="294">
+                                <figcaption
+                                    class="section-project__description">
+                                    <span class="section-project__name">Projekt
                                         Prime</span><span
-                                        class="project-type">Marketing</span>
+                                        class="section-project__type">Marketing</span>
                                 </figcaption>
                             </figure>
                     </li>
-                    <li class="project">
-                        <div class="box-overlay">
-                            <div class="overlay">
+                    <li class="section-project ">
+                        <div class="section-project__box">
+                            <div class="section-project__overlay">
                                 <p>
                                     Technocrack jest popularną platformą
                                     wykorzystywaną do rozpowszechniania
@@ -191,19 +200,20 @@
                                     niezabezpieczone serwery konkurencji
                                 </p>
                             </div>
-                            <figure class="project">
-                                <img class="block" src="./images/l.jpg"
-                                    alt="two boxes" width="370" height="294">
-                                <figcaption class="project-description">
-                                    <span class="project-name">Projekt
+                            <figure>
+                                <img src="./images/l.jpg" alt="two boxes"
+                                    width="370" height="294">
+                                <figcaption
+                                    class="section-project__description">
+                                    <span class="section-project__name">Projekt
                                         Boxes</span><span
-                                        class="project-type">Aplikacja</span>
+                                        class="section-project__type">Aplikacja</span>
                                 </figcaption>
                             </figure>
                     </li>
-                    <li class="project">
-                        <div class="box-overlay">
-                            <div class="overlay">
+                    <li class="section-project ">
+                        <div class="section-project__box">
+                            <div class="section-project__overlay">
                                 <p>
                                     Technocrack jest popularną platformą
                                     wykorzystywaną do rozpowszechniania
@@ -212,21 +222,24 @@
                                     niezabezpieczone serwery konkurencji
                                 </p>
                             </div>
-                            <figure class="project">
-                                <img class="block" src="./images/m.jpg"
-                                    alt="monitor" width="370" height="294">
-                                <figcaption class="project-description">
-                                    <span class="project-name">Inspiration has
+                            <figure>
+                                <img src="./images/m.jpg" alt="monitor"
+                                    width="370" height="294">
+                                <figcaption
+                                    class="section-project__description">
+                                    <span
+                                        class="section-project__name">Inspiration
+                                        has
                                         no
                                         Borders</span><span
-                                        class="project-type">Strona
+                                        class="section-project__type">Strona
                                         internetowa</span>
                                 </figcaption>
                             </figure>
                     </li>
-                    <li class="project">
-                        <div class="box-overlay">
-                            <div class="overlay">
+                    <li class="section-project ">
+                        <div class="section-project__box">
+                            <div class="section-project__overlay">
                                 <p>
                                     Technocrack jest popularną platformą
                                     wykorzystywaną do rozpowszechniania
@@ -235,20 +248,22 @@
                                     niezabezpieczone serwery konkurencji
                                 </p>
                             </div>
-                            <figure class="project">
-                                <img class="block" src="./images/n.jpg"
-                                    alt="open book" width="370" height="294">
-                                <figcaption class="project-description">
-                                    <span class="project-name">Magazyn Limited
+                            <figure>
+                                <img src="./images/n.jpg" alt="open book"
+                                    width="370" height="294">
+                                <figcaption
+                                    class="section-project__description">
+                                    <span class="section-project__name">Magazyn
+                                        Limited
                                         Edition</span><span
-                                        class="project-type">Dizajn</span>
+                                        class="section-project__type">Dizajn</span>
                                 </figcaption>
                             </figure>
 
                     </li>
-                    <li class="project">
-                        <div class="box-overlay">
-                            <div class="overlay">
+                    <li class="section-project ">
+                        <div class="section-project__box">
+                            <div class="section-project__overlay">
                                 <p>
                                     Technocrack jest popularną platformą
                                     wykorzystywaną do rozpowszechniania
@@ -257,19 +272,20 @@
                                     niezabezpieczone serwery konkurencji
                                 </p>
                             </div>
-                            <figure class="project">
-                                <img class="block" src="./images/o.jpg"
-                                    alt="pendant" width="370" height="294">
-                                <figcaption class="project-description">
-                                    <span class="project-name">Projekt
+                            <figure>
+                                <img src="./images/o.jpg" alt="pendant"
+                                    width="370" height="294">
+                                <figcaption
+                                    class="section-project__description">
+                                    <span class="section-project__name">Projekt
                                         LAB</span><span
-                                        class="project-type">Marketing</span>
+                                        class="section-project__type">Marketing</span>
                                 </figcaption>
                             </figure>
                     </li>
-                    <li class="project">
-                        <div class="box-overlay">
-                            <div class="overlay">
+                    <li class="section-project ">
+                        <div class="section-project__box">
+                            <div class="section-project__overlay">
                                 <p>
                                     Technocrack jest popularną platformą
                                     wykorzystywaną do rozpowszechniania
@@ -278,13 +294,14 @@
                                     niezabezpieczone serwery konkurencji
                                 </p>
                             </div>
-                            <figure class="project">
-                                <img class="block" src="./images/p.jpg"
-                                    alt="open laptop" width="370" height="294">
-                                <figcaption class="project-description">
-                                    <span class="project-name">Growing
+                            <figure>
+                                <img src="./images/p.jpg" alt="open laptop"
+                                    width="370" height="294">
+                                <figcaption
+                                    class="section-project__description">
+                                    <span class="section-project__name">Growing
                                         Business</span><span
-                                        class="project-type">Aplikacja</span>
+                                        class="section-project__type">Aplikacja</span>
                                 </figcaption>
                             </figure>
                     </li>
@@ -294,31 +311,34 @@
     </main>
 
     <footer class="footer">
-        <div class="container flix">
-            <div class="kontakt">
+        <div class="footer-container">
+            <div>
                 <div class="logo-footer">
-                    <div class="link">
-                        <a class="logo" href="./index.html"> <span
-                                class="web">Web</span><span
-                                class="studio-footer">Studio</span></a>
+                    <div>
+                        <a class="logo-footer__studio-footer"
+                            href="./index.html">
+                            <span
+                                class="logo-footer__studio-footer1">Web</span><span
+                                class="logo-footer__studio-footer2">Studio</span></a>
                     </div>
                 </div>
-                <div class="link">
-                    <ul class="dots">
+                <div>
+                    <ul class="footer-contact">
                         <li>
-                            <address class="address">m. Warszawa, Aleje
+                            <address class="footer-contact__address">m.
+                                Warszawa, Aleje
                                 Jerozolimskie 21
                             </address>
                         </li>
-                        <li class="mail-footer">
-                            <a class="contact-menu"
+                        <li class="footer-contact__mail">
+                            <a class="footer-contact__menu"
                                 href="mailto:info@devstudio.com">info@devstudio.com
                             </a>
                         </li>
-                        <li class="last-element">
-                            <a class="contact-menu" href="tel:+48111111111">+48
-                                111
-                                111
+                        <li class="footer-contact__number">
+                            <a class="footer-contact__menu"
+                                href="tel:+48111111111">+48
+                                111 111
                                 111</a>
                         </li>
                     </ul>
@@ -326,32 +346,32 @@
             </div>
 
 
-            <div class="joinus-footer">
-                <h4 class="h4-class-footer">DOŁĄCZ DO NAS</h4>
-                <div class="social-links-footer cursor">
-                    <div class="social-link-footer social-link">
-                        <a class="link contact-menu" href="#">
+            <div class="footer-joinus">
+                <h4 class="footer-joinus__slogan">DOŁĄCZ DO NAS</h4>
+                <div class="footer__social-links">
+                    <div class="footer__social-link ">
+                        <a class="footer-social__icon" href="#">
                             <svg width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram-2">
                                 </use>
                             </svg></a>
                     </div>
-                    <div class="social-link-footer social-link">
-                        <a class="link contact-menu" href="#">
+                    <div class="footer__social-link">
+                        <a class="footer-social__icon" href="#">
                             <svg width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter-1">
                                 </use>
                             </svg></a>
                     </div>
-                    <div class="social-link-footer social-link">
-                        <a class="link contact-menu" href="#">
+                    <div class="footer__social-link">
+                        <a class="footer-social__icon" href="#">
                             <svg width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook-1">
                                 </use>
                             </svg></a>
                     </div>
-                    <div class="social-link-footer social-link">
-                        <a class="link contact-menu" href="#">
+                    <div class="footer__social-link">
+                        <a class="footer-social__icon" href="#">
                             <svg width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin-1">
                                 </use>
@@ -359,6 +379,24 @@
                     </div>
                 </div>
             </div>
+
+
+            <form class="section-footer__form">
+                <fieldset class="newsletter-fieldset  section-footer__fildset">
+                    <label class=" section-footer__label">Zapisz
+                        się do newsletrera</label>
+                    <input type="email" class="section-footer__newsletter-email"
+                        name="email" id="newsletter" placeholder="E-mail">
+
+                </fieldset>
+                <button class="section-footer__newsletter-button"
+                    type="submit">Zapisz
+                    się<svg width="24" height="24"
+                        class="section-footer__newsletter-icon">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </form>
         </div>
     </footer>
 
