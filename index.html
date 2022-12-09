@@ -70,7 +70,9 @@
                         </a>
                     </li>
                 </ul>
-                <!-- mobile menu -->
+
+
+
                 <button class="menu-toggle js-open-menu" aria-expanded="false"
                     aria-controls="mobile-menu">
                     <svg width="24" height="24" fill="currentColor"
@@ -80,12 +82,12 @@
                             clip-rule="evenodd"></path>
                     </svg>
                 </button>
-
-
-                <!-- mobile menu ends -->
             </div>
         </div>
     </header>
+
+
+
     <main>
         <section class=" section-background">
             <div class="container">
@@ -109,72 +111,63 @@
         <div class="section-solution">
             <div class="container">
                 <ul class="section-solution__photo-layout">
-                    <li>
+                    <li class="section-solution_card">
                         <div class="section-solution__icon">
                             <svg width="70" height="70">
                                 <use href="./images/icons.svg#icon-antenna-1">
                                 </use>
                             </svg>
+
                         </div>
+                        <span class="section-solution__description-text">LOREM
+                            IPSUM</span>
+                        <p class="section-solution__motto">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nam vel
+                            arcu sem. Sed
+                            non sodales dui. Interdum et malesuada
+                        </p>
                     </li>
-                    <li>
+                    <li class="section-solution_card">
                         <div class="section-solution__icon">
                             <svg width="70" height="70">
                                 <use href="./images/icons.svg#icon-clock-1">
                                 </use>
                             </svg>
                         </div>
+                        <span class="section-solution__description-text">LOREM
+                            IPSUM</span>
+                        <p class="section-solution__motto">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nam vel
+                            arcu sem. Sed
+                            non sodales dui. Interdum et malesuada
+                        </p>
+
                     </li>
-                    <li>
+                    <li class="section-solution_card">
                         <div class="section-solution__icon">
                             <svg width="70" height="70">
                                 <use href="./images/icons.svg#icon-diagram-1">
                                 </use>
                             </svg>
                         </div>
+                        <span class="section-solution__description-text">LOREM
+                            IPSUM</span>
+                        <p class="section-solution__motto">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nam vel
+                            arcu sem. Sed
+                            non sodales dui. Interdum et malesuada
+                        </p>
                     </li>
-                    <li>
+                    <li class="section-solution_card">
                         <div class="section-solution__icon">
                             <svg width="70" height="70">
                                 <use href="./images/icons.svg#icon-astronaut-1">
                                 </use>
                             </svg>
                         </div>
-                    </li>
-                </ul>
-
-                <ul class="section-solution__photo-layout">
-                    <li class="section-solution__item">
-                        <span class="section-solution__description-text">LOREM
-                            IPSUM</span>
-                        <p class="section-solution__motto">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel
-                            arcu sem. Sed
-                            non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                    <li class="section-solution__item ">
-                        <span class="section-solution__description-text">LOREM
-                            IPSUM</span>
-                        <p class="section-solution__motto">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel
-                            arcu sem. Sed
-                            non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                    <li class="section-solution__item ">
-                        <span class="section-solution__description-text">LOREM
-                            IPSUM</span>
-                        <p class="section-solution__motto">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel
-                            arcu sem. Sed
-                            non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                    <li class="section-solution__item ">
                         <span class="section-solution__description-text">LOREM
                             IPSUM</span>
                         <p class="section-solution__motto">
@@ -189,7 +182,9 @@
 
 
 
-            <!-- <section class="section-job">
+
+
+            <section class="section-job">
                 <div class="container">
                     <h2 class="section-job__heading">Czym się zajmujemy</h2>
                     <ul class="section-job__photo-layout">
@@ -228,7 +223,7 @@
                     </ul>
                 </div>
         </div>
-        </section> -->
+        </section>
 
         <section class=" section-team">
             <div class="container">
@@ -236,8 +231,22 @@
                 <ul class="section-team__photo-layout ">
                     <li>
                         <figure class="section-team__picture">
-                            <img src="./images/d.jpg" alt="Man" width="270"
-                                height="260" />
+
+                            <picture>
+                                <source
+                                    srcset="./images/d.jpg 1x, ./images/d.jpg 2x"
+                                    media="(min-width:1200px)" />
+                                <source media="(min-width:768px)" srcset="
+                                                ./images/dtabletx1.jpg 1x,
+                                                ./images/dtabletx2.jpg 2x
+                                              " />
+                                <source srcset="
+                                                ./images/dmobilex1.jpg 1x,
+                                                ./images/dmobilex2.jpg 2x
+                                              " media="(min-width:480px)" />
+                                <img src="images/d.jpg" alt="product designer"
+                                    width="270" height="260" />
+                            </picture>
                             <figcaption><span class="section-team__title">John
                                     Doe
                                 </span><span
@@ -282,8 +291,23 @@
                     </li>
                     <li>
                         <figure class="section-team__picture">
-                            <img src="./images/e.jpg" alt="Woman" width="270"
-                                height="260" />
+                            <picture>
+                                <source
+                                    srcset="./images/e.jpg 1x, ./images/e.jpg 2x"
+                                    media="(min-width:1200px)" />
+                                <source media="(min-width:768px)" srcset="
+                                                                            ./images/etabletx1.jpg 1x,
+                                                                            ./images/etabletx2.jpg 2x
+                                                                          " />
+                                <source srcset="
+                                                                            ./images/emobilex1.jpg 1x,
+                                                                            ./images/emobilex2.jpg 2x
+                                                                          "
+                                    media="(min-width:480px)" />
+                                <img src="images/e.jpg" alt="product designer"
+                                    width="270" height="260" />
+                            </picture>
+
                             <figcaption><span class="section-team__title">John
                                     Doe
                                 </span><span
@@ -327,8 +351,22 @@
                     </li>
                     <li>
                         <figure class="section-team__picture">
-                            <img src="./images/f.jpg" alt="Man" width="270"
-                                height="260" />
+                            <picture>
+                                <source
+                                    srcset="./images/f.jpg 1x, ./images/f.jpg 2x"
+                                    media="(min-width:1200px)" />
+                                <source media="(min-width:768px)" srcset="
+                                                                            ./images/ftabletx1.jpg 1x,
+                                                                            ./images/ftabletx2.jpg 2x
+                                                                          " />
+                                <source srcset="
+                                                                            ./images/fmobilex1.jpg 1x,
+                                                                            ./images/fmobilex2.jpg 2x
+                                                                          "
+                                    media="(min-width:480px)" />
+                                <img src="images/f.jpg" alt="product designer"
+                                    width="270" height="260" />
+                            </picture>
                             <figcaption><span class="section-team__title">John
                                     Doe
                                 </span><span
@@ -372,8 +410,22 @@
                     </li>
                     <li>
                         <figure class="section-team__picture">
-                            <img src="./images/g.jpg" alt="Man" width="270"
-                                height="260" />
+                            <picture>
+                                <source
+                                    srcset="./images/g.jpg 1x, ./images/g.jpg 2x"
+                                    media="(min-width:1200px)" />
+                                <source media="(min-width:768px)" srcset="
+                                                                            ./images/gtabletx1.jpg 1x,
+                                                                            ./images/gtabletx2.jpg 2x
+                                                                          " />
+                                <source srcset="
+                                                                            ./images/gmobilex1.jpg 1x,
+                                                                            ./images/gmobilex2.jpg 2x
+                                                                          "
+                                    media="(min-width:480px)" />
+                                <img src="images/g.jpg" alt="product designer"
+                                    width="270" height="260" />
+                            </picture>
                             <figcaption><span class="section-team__title">John
                                     Doe
                                 </span><span
@@ -434,7 +486,7 @@
                         <li>
                             <div class=" section-customer__icon">
                                 <a href="#">
-                                    <svg width="170" height="92">
+                                    <svg width="160" height="92">
                                         <use
                                             href="./images/icons.svg#icon-Client-1">
                                         </use>
@@ -444,7 +496,7 @@
                         <li>
                             <div class="section-customer__icon">
                                 <a href="#">
-                                    <svg width="170" height="92">
+                                    <svg width="160" height="92">
                                         <use
                                             href="./images/icons.svg#icon-Client-2">
                                         </use>
@@ -454,7 +506,7 @@
                         <li>
                             <div class="section-customer__icon">
                                 <a href="#">
-                                    <svg width="170" height="92">
+                                    <svg width="160" height="92">
                                         <use
                                             href="./images/icons.svg#icon-Client-3">
                                         </use>
@@ -464,17 +516,18 @@
                         <li>
                             <div class="section-customer__icon">
                                 <a href="#">
-                                    <svg width="170" height="92">
+                                    <svg width="160" height="92">
                                         <use
                                             href="./images/icons.svg#icon-Client-4">
                                         </use>
-                                    </svg></a>
+                                    </svg>
+                                </a>
                             </div>
                         </li>
                         <li>
                             <div class="section-customer__icon">
                                 <a href="#">
-                                    <svg width="170" height="92">
+                                    <svg width="160" height="92">
                                         <use
                                             href="./images/icons.svg#icon-Client-5">
                                         </use>
@@ -484,7 +537,7 @@
                         <li>
                             <div class="section-customer__icon">
                                 <a href="#">
-                                    <svg width="170" height="92">
+                                    <svg width="160" height="92">
                                         <use
                                             href="./images/icons.svg#icon-Client-6">
                                         </use>
