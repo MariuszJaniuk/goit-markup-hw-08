@@ -17,11 +17,15 @@
   outline: none;
 
   @media (min-width: 768px) {
-    .menu-toggle {
+    .js-open-menu {
       display: none;
     }
   }
 }
+
+// .mobile-menu {
+//   display: none;
+// }
 
 .menu-toggle:hover,
 .menu-toggle:focus {
