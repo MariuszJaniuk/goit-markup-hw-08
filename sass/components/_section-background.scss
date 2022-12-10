@@ -4,7 +4,7 @@
 }
 .section-background {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0.1)),
-    url('../.../images/hermobilex2.jpg');
+    url('../heromobilex1.img');
   // max-width: 1600px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,17 +13,17 @@
   @media screen and (min-resolution: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url(../../images/img-effective\ solutions.jpg);
+    background-image: url(../images/img-effective\ solutions.jpg);
   }
 
   @media screen and (min-width: 768px) {
-    background-image: url('../../images/herotabletx1.jpg');
+    background-image: url('../images/herotabletx1.jpg');
   }
 
   @media screen and (min-width: 1200px) {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(../../images/img-effective\ solutions.jpg);
+    background-image: url(../images/img-effective\ solutions.jpg);
     // max-width: 1600px;
     height: 600px;
   }
