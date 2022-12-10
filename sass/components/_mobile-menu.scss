@@ -1,12 +1,9 @@
-.js-open-menu {
+.menu-toggle {
   min-height: 40px;
   min-width: 40px;
   display: flex;
-  align-items: right;
+  align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 0px;
-  right: 15px;
 
   margin: 0;
   padding: 0;
@@ -15,16 +12,13 @@
   border: none;
   border-radius: 50%;
   outline: none;
-  @media (min-width: 768px) {
-    .js-open-menu {
-      display: none;
-    }
-  }
 }
 
-// .mobile-menu {
-//   display: none;
-// }
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
 
 .menu-toggle:hover,
 .menu-toggle:focus {
@@ -117,6 +111,15 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  text-decoration: none;
+  // text-decoration: none;
   list-style: none;
+  // display: block;
+}
+
+.mobile-social {
+  padding: 6px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.mobile-social-last {
+  padding-left: 6px;
 }
