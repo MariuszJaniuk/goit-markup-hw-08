@@ -4,7 +4,7 @@
 }
 .section-background {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0.1)),
-    url('../.../images/hermobilex1.jpg');
+    url('../.../images/hermobilex2.jpg');
   // max-width: 1600px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,8 +17,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    background-image: url('../../herotabletx1.jpg');
-    // max-width: 768px;
+    background-image: url('../../images/herotabletx1.jpg');
   }
 
   @media screen and (min-width: 1200px) {
