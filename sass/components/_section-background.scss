@@ -12,22 +12,21 @@
   background-repeat: no-repeat;
   text-align: center;
   margin: 0 auto;
-  // height: 400px;
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url(../../images/img-effective\ solutions.jpg);
+    background-image: url('../../images/img-effective\ solutions.jpg');
   }
 
   @media screen and (min-width: 768px) {
-    background-image: url('../../images/herotabletx2.jpg');
+    background-image: url('https://mariuszjaniuk.github.io/goit-markup-hw-08/images/heromobilex1.jpg');
   }
 
   @media screen and (min-width: 1200px) {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url('../../images/img-effective\ solutions.jpg');
+    background-image: url('https://mariuszjaniuk.github.io/goit-markup-hw-08/images/heromobilex1.jpg');
 
     height: 600px;
   }
