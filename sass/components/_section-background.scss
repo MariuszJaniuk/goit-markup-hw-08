@@ -5,26 +5,25 @@
 .section-background {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0.1)),
     url('../../heromobilex1.img');
-  background-size: cover;
+  // background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   margin: 0;
-  width: 400;
-  height: 500;
+
   @media screen and (min-resolution: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url(../../images/img-effective\ solutions.jpg);
+    background-image: url(../../images/heromobilex2.jpg);
   }
 
   @media screen and (min-width: 768px) {
-    background-image: url('../../images/herotabletx1.jpg');
+    background-image: url('../../images/herotabletx2.jpg');
   }
 
   @media screen and (min-width: 1200px) {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(../../images/img-effective\ solutions.jpg);
+    background-image: url(../../images/ftabletx2.jpg);
     height: 600px;
   }
 }
