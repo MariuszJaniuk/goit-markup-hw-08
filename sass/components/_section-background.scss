@@ -7,12 +7,12 @@
   padding-bottom: 118px;
   background: var(--seventh-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../../images/heromobilex1.jpg');
+    url(https://mariuszjaniuk.github.io/goit-markup-hw-08/images/heromobilex1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   margin: 0 auto;
-  height: 400px;
+  // height: 400px;
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -21,7 +21,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    background-image: url('../../images/herotabletx1.jpg');
+    background-image: url('../../images/herotabletx2.jpg');
   }
 
   @media screen and (min-width: 1200px) {
